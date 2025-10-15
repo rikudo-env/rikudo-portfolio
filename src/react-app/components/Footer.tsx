@@ -1,4 +1,4 @@
-import { MessageCircle, Github, ExternalLink, Code } from 'lucide-react';
+import { MessageCircle, Github, Code } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -6,7 +6,6 @@ export default function Footer() {
   const socialLinks = [
     { icon: MessageCircle, href: 'https://t.me/rikudoDev', label: 'Telegram' },
     { icon: Github, href: 'https://github.com/rikudo-env', label: 'GitHub' },
-    { icon: ExternalLink, href: 'https://m.vk.com/painmylive', label: 'VKontakte' },
   ];
 
   return (
