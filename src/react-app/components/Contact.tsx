@@ -57,7 +57,7 @@ export default function Contact() {
           </div>
 
           {/* Contact Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             {contacts.map((contact, index) => (
               <a
                 key={contact.label}
